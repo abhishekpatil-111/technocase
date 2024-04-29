@@ -1,0 +1,181 @@
+.navbar {
+  color: antiquewhite;
+  /* background-color: #5d2888; */
+  /* box-shadow: 0 0.5rem 1rem rgb(0, 0, 0), inset 0 -1px 0 rgba(0, 0, 0, 0.389); */
+  /* box-shadow: 2px 2px 5px rgb(0, 0, 0); */
+
+}
+
+.heading {
+  color: #5d2888;
+  font-size: 30px;
+
+}
+#heading{
+  color: black;
+}
+
+.marque {
+  color: #ffffff;
+  font-size: larger;
+  height: 350px;
+  width: 500px;
+  block-size: auto;
+  font-size: 60px;
+  text-shadow: 2px 2px 5px rgb(59, 56, 56);
+  margin-bottom: 260px;
+}
+
+.nav-item active {
+  color: white;
+}
+
+.pdea-logo {
+  align-items: center center;
+  /* border: 2px solid red; */
+  height: 80px;
+  width: 80px;
+
+}
+
+.img {
+  margin-top: -20px;
+}
+
+/* --------ABOUT Section edit starts here------------------------- */
+
+.row {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  /* text-align: center; */
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+  margin: 0px 97px;
+}
+
+.certificate {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
+.h2,
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.mb-2,
+.my-2 {
+  margin-bottom: 0.5rem !important;
+  text-align: center;
+}
+
+/* --------------ABOUT Section Ends here------------------- */
+
+.button {
+  /* background-color: rgb(70, 129, 244); */
+  -webkit-border-radius: 10px;
+  /* border-radius: 10px; */
+  border: 2px solid rgb(0, 0, 0);
+  border: none;
+  /* color: #ffffff; */
+  cursor: pointer;
+  display: inline-block;
+  font-family: cursive;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  /* Text color */
+  background-color: #3498db;
+  /* New background color on hover */
+  /* Background color */
+  border-radius: 5px;
+  /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.button:hover {
+  text-decoration: none;
+  background-color: #18f223;
+  color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#logoutbtn{
+  color: white;
+}
+
+/* --------media query for carousel images for mobile view----------- */
+@media (max-width: 767px) {
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+
+/* -----------media query ends here-------------------------------------- */
+
+
+/* feedback form image alignment and responsiveness */
+.align-items-center {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  justify-content: center;
+}
+
+
+.img-fluid {
+  height: 200px;
+  /* margin-top: 60px; */
+  border-radius: 20px;
+}
+#feedimg{
+  height: 500px;
+  width: 527px;}
+
+@media only screen and (max-width: 992px) {
+  .img-fluid {
+    height: 280px;
+    margin-top: auto;
+
+  }
+
+  #feedimg{
+    height: 300px;
+    width: 370;
+  }
+
+  .align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    justify-content: center;
+  }
+}
+
+navbar-toggler {
+  margin-left: 50px;
+}
+
+
+#user{
+  margin-right: 20px;
+}
+
+/* styling for featured movies on HOME.PHP STARTS */
+
+/* styling for featured movies on HOME.PHP ENDS */
+
+
